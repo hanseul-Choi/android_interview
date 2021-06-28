@@ -11,7 +11,7 @@
 액티비티는 사용자 인터페이스를 화면을 관리하는 컴포넌트이다.
 
 + Activity LifeCycle
-<img src="https://kairo96.gitbooks.io/android/content/pic2/2-4-1-1.jpg" width="450px" height="300px"></img><br/>
+<img src="https://kairo96.gitbooks.io/android/content/pic2/2-4-1-1.jpg" width="80%" height="80%"></img><br/>
 <br>
 
 3. Service
