@@ -29,6 +29,14 @@
 | onDestroy() | 액티비티가 소멸될 때 호출됨. finish() 메소드가 호출되거나 시스템이 메모리 확보를 위해 액티비티를 제거할 때 호출됨.        | 없음                         |
 <br>
 
+* onCreate() : Activity가 생성될 때 최초로 한번 불림(초기화 작업 이용), 보관 상태의 Activity가 있는 경우, Bundle을 받아서 사용됨
+* onRestart() : onStop()이 불린 후, 다시 시작하기 전에 불림
+* onStart() : 사용자에게 Activity가 보여지기 직전에 호출됨 
+* onResume() : focus를 얻기 위해 불림. 사용자와 상호작용하기 직전에 호출되며, 스택의 최상단에 위치함
+* onPause() : 다른 Activity가 활성화될 때 호출됨 => ex) 알람, 전화 : onPause()
+* onStop() : 기존 Activity가 완전히 가려지면 호출됨 
+* onDestroy() : Activity가 완전히 삭제되기 직전에 불림
+
 ### Service
 ### Content Provider
 ### BroadCast Receiver
