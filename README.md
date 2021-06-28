@@ -6,4 +6,14 @@
 ## android
 * 안드로이드 4대 컴포넌트 <br>
 
-Activity, Service, Content Provider, BroadCast Receiver
+1. Activity
+   
+액티비티는 사용자 인터페이스를 화면을 관리하는 컴포넌트이다.
+
++ Activity LifeCycle
+![activity lifeCycle](https://kairo96.gitbooks.io/android/content/pic2/2-4-1-1.jpg)
+<br>
+
+3. Service
+4. Content Provider
+5. BroadCast Receiver
