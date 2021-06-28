@@ -15,7 +15,7 @@
 #### Activity LifeCycle
 <br>
 <br>
-<img src="https://kairo96.gitbooks.io/android/content/pic2/2-4-1-1.jpg" width="80%" height="80%"></img><br/>
+<img src="https://kairo96.gitbooks.io/android/content/pic2/2-4-1-1.jpg" width="70%" height="70%"></img><br/>
 <br>
 
 ### Service
