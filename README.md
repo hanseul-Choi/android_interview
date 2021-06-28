@@ -5,6 +5,7 @@
 
 ## android
 * 안드로이드 4대 컴포넌트
+<br>
 Activity
 Service
 Content Provider
