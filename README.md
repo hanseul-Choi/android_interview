@@ -38,5 +38,8 @@
 * onDestroy() : Activity가 완전히 삭제되기 직전에 불림
 
 ### Service
+
+Service는 화면없이 백그라운드에서 실행되는 프로세스를 의미한다.
+
 ### Content Provider
 ### BroadCast Receiver
