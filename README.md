@@ -39,7 +39,26 @@
 
 ### Service
 
-Service는 화면없이 백그라운드에서 실행되는 프로세스를 의미한다.
+Service는 화면없이 백그라운드에서 실행되는 프로세스를 의미한다. <br>
+Service는 총 두가지로 분류할 수 있는데, 로컬 서비스와 원격 서비스(bind)로 구분할 수 있다.<br>
+원격 서비스의 경우, 같은 기기에 실행되고 있는 다른 애플리케이션에서 서비스를 실행할 수 있다.
+
+#### 로컬 서비스
+* onCreate() : 서비스 생성시 호출
+* onStart() : startService()에 의해 서비스가 시작될 때마다 호출
+* onDestroy() : 서비스가 종료될 때 호출
+
+#### 원격 서비스
+* onCreate() : 서비스 생성시 호출
+* onBind() : bindService()에 의해 서비스가 시작될 때 호출
+* onUnbind() : 서비스와 연결이 끊겼을 때 호출
+* onDestroy() : 서비스가 종료될 때 호출
+
+#### Service LifeCycle
+<br>
+<br>
+<img src="https://kairo96.gitbooks.io/android/content/pic2/2-5-1-1.jpg" width="70%" height="70%"></img><br/>
+<br>
 
 ### Content Provider
 ### BroadCast Receiver
