@@ -79,7 +79,7 @@ Content Provider는 애플리케이션 간의 데이터 공유를 위한 인터�
 Content Provider가 제공하는 실제 데이터는 파일 시스템이나 데이터베이스 등에 있을 수 있다. 
 
 <br>
-<img src="https://kairo96.gitbooks.io/android/content/pic2/2-7-1.jpg" width="70%" height="70%"></img><br/>
+<img src="https://kairo96.gitbooks.io/android/content/pic2/2-7-1.jpg"></img><br/>
 
 <br>
 
