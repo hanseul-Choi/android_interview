@@ -64,5 +64,22 @@ Service는 총 두가지로 분류할 수 있는데, 로컬 서비스와 원격 
 <img src="https://kairo96.gitbooks.io/android/content/pic2/2-5-1-1.jpg" width="70%" height="70%"></img><br/>
 <br>
 
-### Content Provider
+<br>
+
 ### BroadCast Receiver
+
+BroadCast Receiver는 사용자 인터페이스를 가지고 있지 않다. 전역인 이벤트를 받는 컴포넌트이다. <br>
+예를 들어 시간대 변경, 배터리 부족, 언어 설정 변경 들이 있고 이를 BroadCast Receiver가 처리한 후 다시 대기 모드로 진입한다.
+
+<br>
+
+### Content Provider
+
+Content Provider는 애플리케이션 간의 데이터 공유를 위한 인터페이스를 제공하는 컴포넌트이다. <br>
+Content Provider가 제공하는 실제 데이터는 파일 시스템이나 데이터베이스 등에 있을 수 있다. 
+
+<br>
+<img src="https://kairo96.gitbooks.io/android/content/pic2/2-7-1.jpg" width="70%" height="70%"></img><br/>
+
+<br>
+
