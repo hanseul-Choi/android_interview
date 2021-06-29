@@ -37,6 +37,8 @@
 * onStop() : 기존 Activity가 완전히 가려지면 호출됨 
 * onDestroy() : Activity가 완전히 삭제되기 직전에 불림
 
+<br>
+
 ### Service
 
 Service는 화면없이 백그라운드에서 실행되는 프로세스를 의미한다. <br>
@@ -53,6 +55,8 @@ Service는 총 두가지로 분류할 수 있는데, 로컬 서비스와 원격 
 * onBind() : bindService()에 의해 서비스가 시작될 때 호출
 * onUnbind() : 서비스와 연결이 끊겼을 때 호출
 * onDestroy() : 서비스가 종료될 때 호출
+
+<br>
 
 #### Service LifeCycle
 <br>
